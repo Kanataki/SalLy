@@ -2,9 +2,6 @@ const Sequelize = require('sequelize');
 const db = require('../config/database');
 
 const Book = db.define('books', {
-    book_id: {
-        type: Sequelize.STRING
-    },
     book_name: {
         type: Sequelize.STRING
     },

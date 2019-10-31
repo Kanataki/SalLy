@@ -7,7 +7,7 @@ exports.index = function(req, res) {
             res.json({
                 status: "success",
                 message: "Books retrieved successfully",
-                data: Book
+                data: books
             });
         })
         .catch(err => {
